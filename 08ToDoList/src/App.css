@@ -1,0 +1,66 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  /* height: 300px; */
+  width: 600px;
+  margin: 30px 0px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.add-task {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  height: 40px;
+  width: 350px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-right: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 10px;
+}
+
+.add-btn {
+  margin-top: 20px;
+  width: 60px;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(80, 132, 195);
+  color: white;
+}
+
+.list {
+  list-style: none;
+  border: 1px solid black;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.list-items {
+  list-style: none;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  color: red;
+  font-weight: 700;
+  /* border: none; */
+  border-radius: 5px;
+  height: 30px;
+  width: 40px;
+}
